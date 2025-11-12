@@ -17,14 +17,11 @@ export default function Home() {
             
           </h1>
         </div>
-        
         {/* Kotak Gambar Kanan (Disesuaikan) */}
-        <div className="flex-1 flex justify-center md:justify-end">
-        
+        <div className="flex-1 flex justify-center md:justify-end">     
           <div className="w-[300px] h-[350px] md:w-[400px] md:h-[450px] bg-neutral-800 
                         rounded-3xl p-0 shadow-xl overflow-hidden 
                         ring-2 ring-neutral-700"> 
-            
             <img 
               src={profilePic} 
               alt="Putra - Full Stack Developer Profile"
