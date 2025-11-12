@@ -1,5 +1,3 @@
-// src/pages/About.jsx
-
 import React from 'react';
 import { FaJs, FaReact, FaPhp, FaNodeJs, FaLaravel } from 'react-icons/fa';
 import { FaDartLang } from "react-icons/fa6";
@@ -26,16 +24,14 @@ export default function About() {
     >
       <div className="max-w-6xl mx-auto"> 
 
-        {/* =======================
-            BAGIAN ABOUT
-            ======================= */}
+      
      <FadeIn direction="left">
-       <div className="flex items-center mb-8"> {/* Flex container untuk judul dan garis */}
-          <h2 className="text-4xl font-serif font-bold mr-4"> {/* Judul "about" dengan margin kanan */}
+       <div className="flex items-center mb-8">
+          <h2 className="text-4xl font-serif font-bold mr-4"> 
             about
           </h2>
-          {/* Garis pemisah - BARU: tinggi 2px, warna #AAEDEF, mengisi sisa lebar */}
-          <div className="h-0.5 bg-[#AAEDEF] flex-grow"></div> {/* Menggunakan h-0.5 untuk tinggi ~2px */}
+          
+          <div className="h-0.5 bg-[#AAEDEF] grow"></div> 
         </div>
         </FadeIn>
 
@@ -46,14 +42,12 @@ export default function About() {
           </p>
         </FadeIn>
         
-        {/* =======================
-            BAGIAN SKILLS
-            ======================= */}
+
         <div className="mt-16">
           <FadeIn direction="left">
             <div className="flex items-center mb-10">
               <h2 className="text-4xl font-serif font-bold mr-4">skills</h2>
-              <div className="h-0.5 bg-[#AAEDEF] flex-grow"></div> 
+              <div className="h-0.5 bg-[#AAEDEF] grow"></div> 
             </div>
           </FadeIn>
 

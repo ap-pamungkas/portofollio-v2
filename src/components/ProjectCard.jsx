@@ -51,7 +51,7 @@ function ProjectCard({ project }) {
           <FaExternalLinkAlt className="mr-2" /> View Demo
         </a>
 
-        {/* Tampilkan tombol GitHub hanya jika link valid */}
+       
         {project.github && project.github !== "#" && (
           <a
             href={project.github}

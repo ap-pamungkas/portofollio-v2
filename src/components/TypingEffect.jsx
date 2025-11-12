@@ -10,7 +10,7 @@ export default function TypingEffect() {
   useEffect(() => {
     let index = 0;
 
-    // Fungsi yang dipanggil setiap interval waktu
+    
     const intervalId = setInterval(() => {
     
       if (index < fullText.length) {
@@ -28,7 +28,7 @@ export default function TypingEffect() {
   return (
     <span className="text-[#AAEDEF] text-[5rem]">
       {displayedText}
-      {/* Tambahkan kursor berkedip */}
+      
       <span className="cursor">|</span>
     </span>
   );

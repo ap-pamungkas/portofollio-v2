@@ -17,9 +17,7 @@ export default function ContactMe() {
           </div>
         </FadeIn>
 
-        {/* =======================
-            GRID INFORMASI DAN FORMULIR
-            ======================= */}
+     
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {/* Informasi Kontak */}
 
