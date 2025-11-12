@@ -10,8 +10,7 @@ function FadeIn({ children, direction = 'up', delay = 0, duration = 'duration-10
     threshold: 0.1, 
   });
 
-  // Tentukan kelas animasi berdasarkan arah
-  const getTransformClass = () => {
+   const getTransformClass = () => {
     switch (direction) {
       case 'left':
         return inView ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0';
