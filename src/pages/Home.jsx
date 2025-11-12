@@ -12,7 +12,7 @@ export default function Home() {
           <p className="text-xl mb-2 font-serif">
             Hello, i'm Putra
           </p>
-          <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif font-bold leading-tight"> 
+          <h1 className="text-5xl   font-serif font-bold leading-tight"> 
             <TypingEffect /> 
             
           </h1>
