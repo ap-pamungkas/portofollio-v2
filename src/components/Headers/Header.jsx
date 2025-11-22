@@ -1,17 +1,19 @@
-import { useState, useEffect } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import MobileNav from './MobileNav';
-import Nav from './Nav';
+"use client";
+import { useState, useEffect } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import MobileNav from "./MobileNav";
+import Nav from "./Nav";
 
-const sections = ['home', 'about', 'projects', 'contact'];
+const sections = ["home", "about", "projects", "contact"];
 export default function Header() {
   const [open, setOpen] = useState(false);
-  const [activeSection, setActiveSection] = useState('home');
+  const [activeSection, setActiveSection] = useState("home");
 
   const handleToggle = () => setOpen(!open);
-useEffect(() => {
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -20,12 +22,11 @@ useEffect(() => {
           }
         });
       },
-     
-      { rootMargin: '-50% 0px -50% 0px', threshold: 0 } 
+
+      { rootMargin: "-50% 0px -50% 0px", threshold: 0 }
     );
 
-    
-    sections.forEach(id => {
+    sections.forEach((id) => {
       const element = document.getElementById(id);
       if (element) {
         observer.observe(element);
@@ -33,7 +34,7 @@ useEffect(() => {
     });
 
     return () => {
-      sections.forEach(id => {
+      sections.forEach((id) => {
         const element = document.getElementById(id);
         if (element) {
           observer.unobserve(element);
@@ -42,16 +43,14 @@ useEffect(() => {
     };
   }, []);
   return (
-   
-    <header className="sticky top-0 bg-neutral-800 text-white px-8 py-3  z-50">
+    <header className="sticky top-0 bg-neutral-800 text-white px-11 py-4 z-50 h-10 ">
       <div className="flex items-center justify-between">
-      
-        <h1 className="text-2xl font-bold tracking-widest"><a href="#home">AGPRA</a></h1>
+        <h1 className="text-2xl font-bold tracking-widest">
+          <a href="#home">AGPRA</a>
+        </h1>
 
-        
-       <Nav activeSection={activeSection} />
+        <Nav activeSection={activeSection} />
 
-      
         <button
           onClick={handleToggle}
           className="text-white text-2xl focus:outline-none md:hidden"
@@ -61,8 +60,11 @@ useEffect(() => {
         </button>
       </div>
 
-      
-     <MobileNav open={open} onClose={handleToggle} activeSection={activeSection} />
+      <MobileNav
+        open={open}
+        onClose={handleToggle}
+        activeSection={activeSection}
+      />
     </header>
   );
 }
