@@ -41,7 +41,7 @@ export default function Nav({ activeSection     }) {
             </a>
           </li>
           <li>
-            <a href="www.linkedin.com/in/agustinus-putra-pemungkas-0b412427b" target='__blank' className="nav-item">
+            <a href="https://www.linkedin.com/in/agustinus-putra-pemungkas-0b412427b" target='__blank' className="nav-item">
               <FontAwesomeIcon icon={faLinkedin} size="lg" />
             </a>
           </li>
