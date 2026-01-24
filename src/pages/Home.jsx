@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile.jpg';
+import profilePic from '../assets/profile.JPG';
 import TypingEffect from '../components/TypingEffect'; 
 import FadeIn from '../components/FadeIn';
 export default function Home() {
