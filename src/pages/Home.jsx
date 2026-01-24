@@ -1,4 +1,4 @@
-import profilePic from '../assets/profile.png';
+import profilePic from '../assets/profile.jpg';
 import TypingEffect from '../components/TypingEffect'; 
 import FadeIn from '../components/FadeIn';
 export default function Home() {
@@ -20,7 +20,7 @@ export default function Home() {
         {/* Kotak Gambar Kanan (Disesuaikan) */}
         <FadeIn direction='right'  delay={200} >
     <div className="flex-1 flex justify-center md:justify-end">     
-          <div className="w-[300px] h-[350px] md:w-[400px] md:h-[450px] bg-neutral-800 
+          <div className="w-75 h-50 md:w-100 md:h-112.5 bg-neutral-800 
                         rounded-3xl p-0 shadow-xl overflow-hidden 
                         ring-2 ring-neutral-700"> 
             <img 

@@ -12,12 +12,14 @@ body {
   background-color: var(--primary);
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
 *{
   font-family: 'kadwa', serif;
     text-decoration: none;
   list-style: none;
+  
 }
 
 @keyframes blink {
