@@ -1,5 +1,12 @@
 const projectsData = [
   {
+    title: "SIMULASI IOT",
+    description: "simulasi iot adalah website untuk belajar tentang iot dimana web ini dibuat memberikan gambaran tentang bagaimana iot bekerja",
+    tech: ["typescript", "nextjs", "tailwind", "arduino", "mqtt", "prisma", "vercel"],
+    link: "https://simulasi-iot.vercel.app/",
+    github: "https://github.com/ap-pamungkas/iot-simulation.git"
+  },
+  {
     title: "SIMPELTARU KETAPANG",
     description: "SIMPELTARU KETAPANG atau sistem informasi pelayanan tata ruang kabupaten ketapang bertujuan untuk menyediakan informasi dan layanan terkait perencanaan dan pemanfaatan tata ruang di wilayah tersebut.",
    tech: ["php", "Larevel", "Bootstrap", "JavaScript", "Jquery", "Leafletjs"],
