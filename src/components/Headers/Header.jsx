@@ -43,7 +43,7 @@ export default function Header() {
     };
   }, []);
   return (
-    <header className="sticky top-0 bg-neutral-800 text-white px-11 py-4 z-50 h-10 ">
+    <header className="sticky top-0 bg-neutral-800 text-white px-11 py-4 z-50">
       <div className="flex items-center justify-between">
         <h1 className="text-2xl font-bold tracking-widest">
           <a href="#home">AGPRA</a>
