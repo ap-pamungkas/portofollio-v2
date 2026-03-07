@@ -53,14 +53,19 @@ export default function About() {
 
           <div className="flex flex-wrap justify-start gap-8">
             {skills.map((skill, index) => (
-                <FadeIn key={index} direction="up" delay={200 + index * 50}>
-              <div  className="flex flex-col items-center">
-                <skill.icon 
-                  size={48} 
-                  style={{ color: skill.color === '#000000' || skill.color === '#FFFFFF' ? '#FFFFFF' : skill.color }} 
-                  className="hover:scale-110 transition-transform duration-300" 
-                />
-              </div>
+              <FadeIn key={index} direction="up" delay={200 + index * 50}>
+                <div className="flex flex-col items-center group">
+                  <div className="bg-neutral-800 p-4 rounded-2xl border border-neutral-700/50 group-hover:border-[#AAEDEF] group-hover:bg-neutral-900 transition-all duration-300 shadow-md">
+                    <skill.icon 
+                      size={40} 
+                      style={{ color: skill.color === '#000000' || skill.color === '#FFFFFF' ? '#FFFFFF' : skill.color }} 
+                      className="group-hover:scale-110 transition-transform duration-300" 
+                    />
+                  </div>
+                  <span className="mt-2 text-[10px] text-neutral-500 font-bold uppercase tracking-tighter opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    {skill.name}
+                  </span>
+                </div>
               </FadeIn>
             ))}
           </div>

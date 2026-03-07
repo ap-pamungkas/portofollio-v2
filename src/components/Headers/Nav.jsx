@@ -24,6 +24,7 @@ export default function Nav({ activeSection     }) {
           <li><a href="#home" className={`${getNavLinkClass('home')} text-white hover:text-gray-300 transition-colors`}>HOME</a></li>
           <li><a href="#about" className={`${getNavLinkClass('about')} text-white hover:text-gray-300 transition-colors`}>ABOUT</a></li>
           <li><a href="#projects" className={`${getNavLinkClass('projects')} text-white hover:text-gray-300 transition-colors`}>PROJECTS</a></li>
+          <li><a href="#awards" className={`${getNavLinkClass('awards')} text-white hover:text-gray-300 transition-colors`}>AWARDS</a></li>
           <li><a href="#contact" className={`${getNavLinkClass('contact')} text-white hover:text-gray-300 transition-colors`}>CONTACT ME</a></li>
         </ul>
       </nav>

@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const fullText = "Fuull Stack Developer";
+const fullText = "Full Stack Developer";
 // Tentukan kecepatan pengetikan (misalnya, 100 milidetik per karakter)
 const typingSpeed = 100;
 
@@ -26,7 +26,7 @@ export default function TypingEffect() {
   }, []);
 
   return (
-    <span className="text-[#AAEDEF] text-[5rem]">
+    <span className="text-[#AAEDEF] text-3xl md:text-5xl lg:text-7xl block transition-all duration-300">
       {displayedText}
       
       <span className="cursor">|</span>

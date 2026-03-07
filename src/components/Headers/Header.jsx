@@ -6,7 +6,7 @@ import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
 import MobileNav from "./MobileNav";
 import Nav from "./Nav";
 
-const sections = ["home", "about", "projects", "contact"];
+const sections = ["home", "about", "projects", "awards", "contact"];
 export default function Header() {
   const [open, setOpen] = useState(false);
   const [activeSection, setActiveSection] = useState("home");

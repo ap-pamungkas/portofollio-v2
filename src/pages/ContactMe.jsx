@@ -5,9 +5,7 @@ export default function ContactMe() {
     // Pastikan konsisten dengan max-w-6xl dan scroll-offset
     <section
       id="contact"
-      className="bg-neutral-900 text-white p-8 md:p-16"
-      // Tambahkan offset scroll yang sama
-      style={{ marginTop: "-6rem", paddingTop: "6rem" }}
+      className="bg-neutral-900 text-white p-8 md:p-24"
     >
       <div className="max-w-6xl mx-auto">
         <FadeIn direction="left">

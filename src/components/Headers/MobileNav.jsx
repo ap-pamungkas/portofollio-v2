@@ -19,6 +19,7 @@ export default function MobileNav({ open, onClose , activeSection}) {
          <li><a href="#home" className={getNavLinkClass('home')}>HOME</a></li>
           <li><a href="#about" className={getNavLinkClass('about')}>ABOUT</a></li>
           <li><a href="#projects" className={getNavLinkClass('projects')}>PROJECTS</a></li>
+          <li><a href="#awards" className={getNavLinkClass('awards')}>AWARDS</a></li>
           <li><a href="#contact" className={getNavLinkClass('contact')}>CONTACT ME</a></li>
         </ul>
      

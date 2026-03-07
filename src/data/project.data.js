@@ -55,6 +55,13 @@ const projectsData = [
     link: "https://pesona-ketapang.vercel.app/",
     github: "https://github.com/ap-pamungkas/web-sederhana.git"
   },
+  {
+    title: "Management Inventory",
+    description: "Sistem Manajemen Inventaris barang yang memudahkan pengelolaan stok, rak, dan penempatan barang secara efisien dengan fitur visualisasi map gudang.",
+    tech: ["typescript", "nextjs", "tailwind", "prisma", "zod", "shadcn/ui", "mysql"],
+    link: "#",
+    github: "https://github.com/ap-pamungkas/management_inventory.git"
+  },
 ];
 
 export default projectsData;

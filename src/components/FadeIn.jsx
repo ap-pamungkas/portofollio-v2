@@ -4,18 +4,16 @@ import { useInView } from 'react-intersection-observer';
 function FadeIn({ children, direction = 'up', delay = 0, duration = 'duration-1000', className = '' }) {
   
   const { ref, inView } = useInView({
-   
-    triggerOnce: false, 
-  
+    triggerOnce: true, 
     threshold: 0.1, 
   });
 
    const getTransformClass = () => {
     switch (direction) {
       case 'left':
-        return inView ? 'translate-x-0 opacity-100' : '-translate-x-full opacity-0';
+        return inView ? 'translate-x-0 opacity-100' : '-translate-x-12 opacity-0';
       case 'right':
-        return inView ? 'translate-x-0 opacity-100' : 'translate-x-full opacity-0';
+        return inView ? 'translate-x-0 opacity-100' : 'translate-x-12 opacity-0';
       case 'up':
       default:
         return inView ? 'translate-y-0 opacity-100' : 'translate-y-12 opacity-0';
