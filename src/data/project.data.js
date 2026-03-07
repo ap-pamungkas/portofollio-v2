@@ -58,7 +58,7 @@ const projectsData = [
   {
     title: "Management Inventory",
     description: "Sistem Manajemen Inventaris barang yang memudahkan pengelolaan stok, rak, dan penempatan barang secara efisien dengan fitur visualisasi map gudang.",
-    tech: ["typescript", "nextjs", "tailwind", "prisma", "zod", "shadcn/ui", "mysql"],
+    tech: ["typescript", "nextjs", "tailwind", "prisma", "zod", "postgresql"],
     link: "https://management-inventory-kappa.vercel.app/",
     github: "https://github.com/ap-pamungkas/management_inventory.git"
   },
