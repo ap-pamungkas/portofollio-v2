@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const fullText = "Full Stack Developer";
+const fullText = "Weeb Stack Developer";
 // Tentukan kecepatan pengetikan (misalnya, 100 milidetik per karakter)
 const typingSpeed = 100;
 
