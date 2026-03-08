@@ -22,7 +22,7 @@ function AwardCard({ award }) {
         <span className="text-sm font-bold text-neutral-500">{award.year}</span>
       </div>
       
-      <div className="flex-grow">
+      <div className="grow">
         <h3 className="text-xl font-bold mb-2 group-hover:text-[#AAEDEF] transition-colors leading-snug">
           {displayedTitle}
           {isTooLong && (

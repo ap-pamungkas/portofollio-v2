@@ -1,13 +1,15 @@
 import React from 'react';
-import { FaJs, FaReact, FaPhp, FaNodeJs, FaLaravel } from 'react-icons/fa';
+import { FaJs, FaReact, FaPhp, FaNodeJs, FaLaravel, FaGitAlt } from 'react-icons/fa';
 import { FaDartLang } from "react-icons/fa6";
 import { SiMongodb, SiMysql, SiExpress, SiNextdotjs } from 'react-icons/si';
 import FadeIn from '../components/FadeIn';
+import { BiLogoPostgresql, BiLogoTypescript } from 'react-icons/bi';
 export default function About() {
   const aboutText = "Halo! Saya Putra, seorang Full Stack Developer yang bersemangat dalam membangun aplikasi web yang efisien dan skalabel. Dengan pengalaman di kedua sisi, baik frontend maupun backend, saya berfokus pada pengalaman pengguna yang mulus dan arsitektur kode yang bersih. Saya senang belajar teknologi baru dan selalu mencari tantangan untuk meningkatkan kemampuan saya dalam dunia pengembangan. Mari berkolaborasi!";
 
   const skills = [
     { icon: FaJs, name: 'JavaScript', color: '#F7DF1E' },
+    {icon: BiLogoTypescript, name: 'TypeScript', color: '#3178C6' },
     { icon: FaPhp, name: 'PHP', color: '#777BB4' },
     { icon: FaDartLang, name: 'Dart', color: '#0175C2' },
     {icon: FaLaravel, name: 'Laravel', color: '#FF2D20' },
@@ -17,6 +19,9 @@ export default function About() {
     { icon: SiExpress, name: 'Express.js', color: '#FFFFFF' }, 
     { icon: SiMongodb, name: 'MongoDB', color: '#47A248' },
     { icon: SiMysql, name: 'MySQL', color: '#4479A5' },
+    {icon:BiLogoPostgresql, name:'postgreSQL', color: '#336791' },
+    { icon: FaGitAlt, name: 'Git', color: '#F05032' },
+
   ];
 
   return (
