@@ -7,9 +7,9 @@ const awardsData = [
     type: "pdf"
   },
   {
-    title: "KMIPN v5 - Pemenang Best Social Impact kategori Perencanaan Bisnis Bidang TIK ",
+    title: "KMIPN VI - Pemenang Best Social Impact kategori Perencanaan Bisnis Bidang TIK ",
     issuer: "KMIPN",
-    year: "2023",
+    year: "2024",
     image: "/sertif/KMIPN.pdf",
     type: "pdf"
   },
