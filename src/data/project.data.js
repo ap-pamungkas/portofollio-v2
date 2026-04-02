@@ -62,6 +62,13 @@ const projectsData = [
     link: "https://management-inventory-kappa.vercel.app/",
     github: "https://github.com/ap-pamungkas/management_inventory.git"
   },
+  {
+    title: "Satu Peta Ketapang",
+    description: "Satu Peta Ketapang adalah platform informasi geospasial yang menyediakan data dan peta terkait berbagai aspek wilayah Kabupaten Ketapang, termasuk infrastruktur, lingkungan, dan layanan publik.",
+    tech: ["php", "Larevel", "Bootstrap", "JavaScript", "Jquery", "Leafletjs"],
+    link: "https://satupeta.ketapangkab.go.id/",
+    github: "#"
+  },
 ];
 
 export default projectsData;
